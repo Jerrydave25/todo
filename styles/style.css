@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(to bottom,darkgrey 0%,darkgrey 50%, whitesmoke 50%, whitesmoke 100%);
+height: 90vh;
+weight: 500px
+
+}
+
+
+
+img {
+    display: block;
+    margin-top: 400px;
+    margin-right: auto;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: bottom;
+   
+}
+
+.h {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.p {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+}
+
+
+.link-itemrm {
+    text-align: center;
+    padding: 50px;
+}
+
+
+.title {
+    font-size: 50px;
+    color: rgb(53, 53, 53);
+}
+
+
+.desc-content{
+    width: 30cm;
+}
+
+
+.form-label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.todo-input {
+    width: 50%;
+    height: 30px;
+    transition: 80.1ms;
+    border-color: darkcyan;
+    box-shadow: none;
+    padding-left: 10px;
+}
+
+
+.todo-input:focus {
+    width: 70%;
+    transition: 8.1ms;
+    border-color: darkcyan; important;
+}
+
+
+
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.github:hover {
+    color: bisque;
+}
+
+
+.twitter:hover {
+    color: pink;
+}
+
+.linkedin:hover {
+    color: magenta;
+}
+
+.ig:hover {
+    color: brown;
+}
+
+
+.my-todo:hover {
+    color: chartreuse;
+}
+
+
+
+.link-itemTwitter {
+    width: 20px;
+    height: 20px;
+}
