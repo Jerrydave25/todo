@@ -4,30 +4,28 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>jerry</title>
+	<title>Login Page</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div id="background">
-        <div id="jerry-img"><img src="images/jerry2.jpg" alt="my image" class="jerry1"></div>
-        <div>
-            <h1 class="heading">JAVASCRIPT</h1>
-            <p class="paragraphy">
-                Jerry Dave Afo is a Javascript Programmer developer use in interracting 
-				to your web design project.  
-                Also jerrydave is a student of the NN TECHADEMY first wave of year 2022. <br>
-                Studying with felllow colleagues has boosted my IQ thus improving my potentials, <br>
-                I aim to develop myself to greater heigths...
-            </p>
+	<center> <h1>Login Form</h1></center>
+	<form>
+		<div class="container">
+			<label>Username :</label>
+			<label>Gender</label> <br>
+			<input type="radio" id="gender" name="gender" value="male"/>Male
+			<br>
+			<input type="radio" id="gender" name="gender" value="female"/>Female <br/>
+			<input type="text" placeholder="Enter Username" name="username" required>
+			<label>Password :</label>
+			<input type="text" placeholder="Enter Password" name="password" required>
+			<button type="submit">Login</button>
+			<input type="checkbox" checked="checked">Remember me 
+			<button type="button" class="cancelbtn">Cancel</button>
+			Forget <a href="#">password?</a>
 
-		<div class="links">
-				<a href="http://github.com/Jerrydave25" class="link-item github">Github |</a>
-				<a href="http://twitter.com/jerryDa90178140?s=09" class="link-item twitter">Twitter |</a>
-				<a href="http://www.facebook.com/profile.php?id=100007984864330" class="link-item facebook">facebook |</a>
-				<a href="#" class="link-item linkedin">Linkedin |</a>
-				<a href="http://Instagarm.com/jerrydave2339" class="link-item ig">Instagarm |</a>
-				<a href="index.html" class="link-item my-todo">My Todo App</a>
 		</div>
+	</form>
 
 <script src="index.js"></script>
 </body>
